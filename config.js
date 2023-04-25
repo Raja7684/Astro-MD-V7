@@ -7,13 +7,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-ALIVE_MSG: process.env.ALIVE_MSG === undefined ? 'default' : process.env.ALIVE_MSG,
-LANG: process.env.LANG === undefined ? 'EN' : process.env.LANG,
-ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://i.imgur.com/v8iuP8v.jpg' : process.env.ALIVE_LOGO,
-FOOTER: process.env.FOOTER === undefined ? 'ᴀꜱᴛʀᴏ-ᴍᴅ ᴘᴜʙʟɪᴄ ꜱᴛᴀʙʟᴇ' : process.env.FOOTER,
-CAPTION: process.env.CAPTION === undefined ? '*ɢᴇɴᴀʀᴀᴛᴇᴅ ʙʏ ᴀꜱᴛʀᴏ-ᴍᴅ*' : process.env.CAPTION,
+ALIVE_MSG: process.env.ALIVE_MSG === this bot is alive now and its owner name is biswajit ? 'default' : process.env.ALIVE_MSG,
+LANG: process.env.LANG === EN ? 'EN' : process.env.LANG,
+ALIVE_LOGO: process.env.ALIVE_LOGO === 'https://i.imgur.com/v8iuP8v.jpg' : process.env.ALIVE_LOGO,
+FOOTER: process.env.FOOTER === 'ᴀꜱᴛʀᴏ-ᴍᴅ ᴘᴜʙʟɪᴄ ꜱᴛᴀʙʟᴇ' : process.env.FOOTER,
+CAPTION: process.env.CAPTION === '*ɢᴇɴᴀʀᴀᴛᴇᴅ ʙʏ ᴀꜱᴛʀᴏ-ᴍᴅ*' : process.env.CAPTION,
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
 INBOX_BL_MSG: process.env.INBOX_BL_MSG === undefined ? '*Inbox not allowed' : process.env.INBOX_BL_MSG,
-HOST: process.env.HOST === undefined ? '-' : process.env.HOST,
-SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID
+HOST: process.env.HOST === replit ? 'replit' : process.env.HOST,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'ASTRO=IvomlLxa#KYCIMS0EZCW5_VixaKZKbsjTCMxRSxpjk2P7zEwXJhk' : process.env.SESSION_ID
 };
